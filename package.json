@@ -1,0 +1,50 @@
+{
+  "name": "@panhezeng/vue-axios",
+  "description": "A Vue plugin",
+  "version": "1.0.0",
+  "author": "潘何增 <panhezeng@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "vue",
+    "plugin",
+    "ajax",
+    "axios"
+  ],
+  "homepage": "https://github.com/panhezeng/vue-axios#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/panhezeng/vue-axios.git"
+  },
+  "files": [
+    "dist",
+    "src",
+    "package.json",
+    "README"
+  ],
+  "main": "dist/vue-axios.min.js",
+  "scripts": {
+    "example": "webpack-dev-server --open --hot --config webpack.example.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "dependencies": {
+    "axios": "^0.18.0",
+    "css-loader": "^0.28.11",
+    "vue": "^2.5.11"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.6.1",
+    "vue-loader": "^14.2.2",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.5.0",
+    "webpack-cli": "^2.0.14",
+    "webpack-dev-server": "^3.1.3"
+  }
+}

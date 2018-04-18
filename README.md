@@ -42,7 +42,7 @@ console.log(Vue.axios)
 npm install
 
 # 运行插件使用示例
-npm run example
+npm run dev:example
 
 # 编译插件
 npm run build

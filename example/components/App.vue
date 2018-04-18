@@ -1,6 +1,9 @@
 <template>
   <div id="app">
-    VueAxios response {{response}}
+    <h1>VueAxios example</h1>
+    <p>
+      VueAxios response {{response}}
+    </p>
   </div>
 </template>
 

@@ -18,7 +18,7 @@ console.log(Vue.axios)
   export default {
     name: 'App',
     created () {
-      this.$http.get('http://doclever.cn:8090/mock/5ad45bfb13ff0747241abf7d/test').then(function (response) {
+      this.$http.get('https://easy-mock.com/mock/5ad718dc7b068762cd35aeaf/api/test').then(function (response) {
              console.log(response)
            }).catch(function (error) {
              console.log(error)

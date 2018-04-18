@@ -13,7 +13,7 @@
       }
     },
     created () {
-      this.$http.get('http://doclever.cn:8090/mock/5ad45bfb13ff0747241abf7d/test').then((response) => {
+      this.$http.get('https://easy-mock.com/mock/5ad718dc7b068762cd35aeaf/api/test').then((response) => {
         console.log(response)
         this.response = JSON.stringify(response)
       }).catch((error) => {

@@ -34,6 +34,7 @@ console.log(Vue.axios)
 ## 说明
 
    就是为了方便使用vue-resource的老用户，和vue-resource一样，把axios类挂载到了http属性名上，同时创建axios属性，和http属性引用地址一样。
+   axios使用latest版本，vue相关包也是使用latest版本，如果vue大版本升级，可能example不能正常，但是不影响vue-axios插件的使用。
 
 ## 编译
 

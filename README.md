@@ -4,6 +4,8 @@
 
 ## use
 
+`npm i @panhezeng/vue-axios -S`
+
 ```javascript
 import VueAxios from '@panhezeng/vue-axios'
 

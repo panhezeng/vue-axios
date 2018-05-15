@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "axios": "latest",
-    "vue": "latest"
+    "vue": "^2.5.16"
   },
   "browserslist": [
     "> 1%",

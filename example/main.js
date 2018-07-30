@@ -1,5 +1,5 @@
 import Vue from 'vue'
-import '../src'
+//import '../src'
 //import VueAxios from '../src'
 import App from './components/App.vue'
 

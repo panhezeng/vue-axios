@@ -29,6 +29,7 @@ import '@panhezeng/vue-axios'
 or 
 ```html
 <!--auto install-->
+<script src="https://cdn.jsdelivr.net/npm/axios@latest/dist/axios.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@panhezeng/vue-axios@latest/dist/vue-axios.min.js"></script>
 ```
 

@@ -29,8 +29,7 @@
     "build": "webpack --mode production"
   },
   "dependencies": {
-    "axios": "latest",
-    "vue": "latest"
+    "axios": "latest"
   },
   "browserslist": [
     "> 1%",
@@ -38,6 +37,7 @@
     "not ie <= 8"
   ],
   "devDependencies": {
+    "vue": "latest",
     "babel-core": "latest",
     "babel-loader": "latest",
     "babel-preset-env": "latest",

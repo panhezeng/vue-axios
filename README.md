@@ -36,7 +36,8 @@ console.log(Vue.axios)
 ## 说明
 
    就是为了方便使用vue-resource的老用户，和vue-resource一样，把axios类挂载到了http属性名上，同时创建axios属性，和http属性引用地址一样。
-   本组件使用的axios是latest版本，没有太复杂的东西，放心使用，如果觉得不好的地方，可以fork自行修改，非常简单
+   本组件使用的axios是latest版本，没有太复杂的东西，放心使用，如果有需求，可以fork修改。
+   externals vue方式使用此插件和internal一样，都需要显式use安装，为了保持使用方式一致，如需要自动安装功能，fork去掉auto install in dist mode下面代码的注释后重新编译即可。
 
 ## 编译
 

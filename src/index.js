@@ -5,7 +5,7 @@ let Vue
 function install (_Vue) {
 
   if (Vue) {
-    console.error('[VueAxios] already installed. Vue.use(VueAxios) should be called only once.')
+    console.warn('[VueAxios] already installed. Vue.use(VueAxios) should be called only once.')
     return
   }
 
@@ -30,9 +30,9 @@ function install (_Vue) {
 }
 
 // auto install in dist mode
-if (typeof window !== 'undefined' && window.Vue) {
-  install(window.Vue)
-}
+// if (typeof window !== 'undefined' && window.Vue) {
+//   install(window.Vue)
+// }
 
 const VueAxios = {
   install: install,

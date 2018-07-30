@@ -4,13 +4,35 @@
 
 ## use
 
+### internal vue 方式
+`npm i vue @panhezeng/vue-axios -S`
+
+```javascript
+
+import Vue from 'vue'
+import VueAxios from '@panhezeng/vue-axios'
+Vue.use(VueAxios)
+```
+
+### external vue 方式
+
+```html
+<script src="https://cdn.jsdelivr.net/npm/vue@latest/dist/vue.min.js"></script>
+```
+
 `npm i @panhezeng/vue-axios -S`
 
 ```javascript
-import VueAxios from '@panhezeng/vue-axios'
+// auto install
+import '@panhezeng/vue-axios'
+```
+or 
+```html
+<!--auto install-->
+<script src="https://cdn.jsdelivr.net/npm/@panhezeng/vue-axios@latest/dist/vue-axios.min.js"></script>
+```
 
-Vue.use(VueAxios)
-
+```javascript
 console.log(Vue.http)
 console.log(Vue.axios)
 ```

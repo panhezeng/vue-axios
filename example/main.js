@@ -1,8 +1,9 @@
 import Vue from 'vue'
-import VueAxios from '../src'
+import '../src'
+//import VueAxios from '../src'
 import App from './components/App.vue'
 
-Vue.use(VueAxios)
+//Vue.use(VueAxios)
 
 new Vue({
   el: '#app',

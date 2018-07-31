@@ -6,23 +6,18 @@ module.exports = {
     libraryTarget: 'umd',
     globalObject: 'this',
     library: 'VueAxios',
-    umdNamedDefine: true,
+    umdNamedDefine: true
   },
   externals: {
-    'axios': {
-      commonjs: 'axios',
-      commonjs2: 'axios',
-      amd: 'axios',
-      root: 'axios',
-    },
+    'axios': 'axios'
   },
   module: {
     rules: [
       {
         test: /\.js$/,
         exclude: /node_modules/,
-        use: 'babel-loader',
-      },
-    ],
-  },
+        use: 'babel-loader'
+      }
+    ]
+  }
 }

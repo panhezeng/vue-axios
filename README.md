@@ -1,8 +1,17 @@
 # vue-axios
 
-[示例](https://panhezeng.github.io/vue-axios/)
+## 示例
 
-## use
+[点击预览](https://panhezeng.github.io/vue-axios/)
+
+代码目录 /example
+
+## 说明
+
+   方便使用vue-resource的老用户，和vue-resource一样，把axios类挂载到了http属性名上，同时创建axios属性，和http属性引用地址一样。
+   本组件使用的axios是latest版本，没有太复杂的东西，放心使用，如果有需求，可以fork修改。
+
+## 用法
 
 ### internal vue 方式
 `npm i vue @panhezeng/vue-axios -S`
@@ -53,13 +62,6 @@ console.log(Vue.axios)
   }
 </script>
 ```
-
-
-
-## 说明
-
-   就是为了方便使用vue-resource的老用户，和vue-resource一样，把axios类挂载到了http属性名上，同时创建axios属性，和http属性引用地址一样。
-   本组件使用的axios是latest版本，没有太复杂的东西，放心使用，如果有需求，可以fork修改。
 
 ## 编译
 

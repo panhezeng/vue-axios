@@ -7,7 +7,8 @@ module.exports = {
     filename: 'example.js'
   },
   externals: {
-    'vue': 'Vue'
+    'vue': 'Vue',
+    'axios': 'axios'
   },
   module: {
     rules: [
@@ -17,7 +18,7 @@ module.exports = {
       },
       {
         test: /\.js$/,
-        exclude: /node_modules/,
+        exclude: /node_modules|dist/,
         use: 'babel-loader'
       }
     ]

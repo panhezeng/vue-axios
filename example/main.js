@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import App from './components/App.vue'
-import '../src'
+import '../dist/vue-axios.min'
 // import VueAxios from '../src'
 // Vue.use(VueAxios)
 

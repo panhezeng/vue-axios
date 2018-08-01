@@ -6,6 +6,9 @@ module.exports = {
     path: path.resolve(__dirname, 'docs'),
     filename: 'example.js'
   },
+  externals: {
+    'vue': 'Vue'
+  },
   module: {
     rules: [
       {
@@ -22,9 +25,6 @@ module.exports = {
   plugins: [
     new VueLoaderPlugin()
   ],
-  externals: {
-    'vue': 'Vue'
-  },
   devServer: {}
 }
 

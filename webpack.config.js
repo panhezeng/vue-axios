@@ -1,5 +1,3 @@
-const path = require('path')
-
 module.exports = {
   output: {
     filename: 'vue-axios.min.js',
@@ -9,6 +7,7 @@ module.exports = {
     umdNamedDefine: true
   },
   externals: {
+    'vue': 'Vue',
     'axios': 'axios'
   },
   module: {

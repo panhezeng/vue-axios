@@ -1,8 +1,8 @@
 {
   "name": "@panhezeng/vue-axios",
   "description": "A Vue plugin",
-  "version": "1.0.18",
-  "author": "潘何增 <panhezeng@gmail.com>",
+  "version": "2.0.0",
+  "author": "潘何增 <panhezeng@gmail.com> (http://apsay.com/)",
   "license": "MIT",
   "private": false,
   "keywords": [

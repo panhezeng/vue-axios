@@ -15,13 +15,13 @@ function install (_Vue) {
     '$http': {
       get: function () {
         return axios
-      },
+      }
     },
     '$axios': {
       get: function () {
         return axios
-      },
-    },
+      }
+    }
   })
 
   // Vue添加全局属性
@@ -34,9 +34,6 @@ if (typeof window !== 'undefined' && window.Vue) {
   install(window.Vue)
 }
 
-const VueAxios = {
-  install: install,
+export const VueAxios = {
+  install: install
 }
-
-export default VueAxios
-

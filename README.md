@@ -10,6 +10,7 @@
 
    方便使用vue-resource的老用户，和vue-resource一样，把axios类挂载到了http属性名上，同时创建axios属性，和http属性引用地址一样。
    本组件使用的axios是latest版本，没有太复杂的东西，放心使用，如果有需求，可以fork修改。
+   修改了output方式，通过require或window方式使用，不需要加.default
 
 ## 用法
 

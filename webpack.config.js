@@ -2,9 +2,9 @@ module.exports = {
   output: {
     filename: 'vue-axios.min.js',
     libraryTarget: 'umd',
-    globalObject: 'this',
+    umdNamedDefine: true,
     library: 'VueAxios',
-    umdNamedDefine: true
+    libraryExport: 'VueAxios'
   },
   externals: {
     'vue': 'Vue',

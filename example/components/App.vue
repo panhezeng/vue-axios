@@ -16,7 +16,7 @@
       }
     },
     created () {
-      this.$http.get('https://easy-mock.com/mock/5ad718dc7b068762cd35aeaf/api/test').then((response) => {
+      this.$http.get('http://private-87040-publicexample.apiary-mock.com/upload/token').then((response) => {
         console.log(response)
         this.response = JSON.stringify(response)
       }).catch((error) => {

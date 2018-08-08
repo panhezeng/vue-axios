@@ -6,6 +6,8 @@
 
 示例代码目录 /example
 
+示例使用的mock接口服务可能会出现无响应等错误
+
 ## 说明
 
    方便使用vue-resource的老用户，和vue-resource一样，把axios类挂载到了http属性名上，同时创建axios属性，和http属性引用地址一样。

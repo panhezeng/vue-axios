@@ -6,7 +6,7 @@
 
 示例代码目录 /example
 
-示例使用的mock接口服务可能会出现无响应等错误
+示例使用的apiary mock服务每次Request获得的Response都是不变的。免费服务可能会出现无响应等错误
 
 ## 说明
 

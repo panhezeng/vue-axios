@@ -13,7 +13,6 @@
 方便使用 vue-resource 的老用户，和 vue-resource 一样，把 axios 类挂载到了 http 属性名上，同时创建 axios 属性，和 http 属性引用地址一样。
 本组件使用的 axios 是 latest 版本，没有太复杂的东西，放心使用，如果有需求，可以 fork 修改。
 修改了 output 方式，通过 require 或 window 方式使用，不需要加.default
-打包 polyfills 应当是最终使用组件的应用的责任
 
 ## 用法
 
